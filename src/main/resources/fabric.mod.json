@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "chunckclaimer",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Chunck Claimer",
+  "description": "Allows players to claim chunks to stop other players from placing and breaking blocks in it.",
   "authors": [
-    "Me!"
+    "hexszeug"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "http://hexsz.eu/",
+    "sources": "https://github.com/hexszeug/chunck-claimer"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "All rights reserved",
+  "icon": "assets/chunckclaimer/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "eu.hexsz.chunkclaimer.MainEntryPoint"
     ]
   },
   "mixins": [
